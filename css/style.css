@@ -1,0 +1,322 @@
+/* variable */
+:root {
+    --color-red: #ff0000;
+    --color-yellow: #ffff00;
+}
+/* riaset-system */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-family: "yekan", calibri, tahoma, arial;
+    font-size: 15px;
+    background-color: black;
+    position: relative;
+}
+@font-face {
+    font-family: "yekan";
+    src: url("../font.site/BYekan.eot");
+    src: url("../font.site/eot/BYekan.eot?#iefix") format("embedded-opentype"),
+        url("../font.site/BYekan.woff2") format("woff2"),
+        url("../font.site/BYekan.woff") format("woff"),
+        url("../font.site/Yekan.ttf") format("truetype");
+}
+
+
+/* photo-menu */
+.photo-menu {
+    position: relative;
+    text-decoration: none;
+    background: url(../photo.site/poster-site.jpg) black center;
+    width: 100%;
+    height: 350px;
+}
+
+/* menu-site */
+.menu-site {
+    list-style: none;
+    display:inline-block;
+    text-decoration: none;
+    color: mediumaquamarine;
+    border: 5px solid red;
+    border-radius: 5px;
+    transition: all 0.7s;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.menu-site:hover {
+    color: gold;
+}
+
+/* arrow-down-link */
+.arrow-down {
+    background-color: #696969;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 5px;
+    right: 50%;
+}
+
+.arrow-link {
+    color: brown;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all 0.5s;
+    position: relative;
+    right: 4px;
+    bottom: 15px;
+}
+.arrow-link:hover {
+    color: dodgerblue;
+}
+
+.back-menu {
+    background-color: blue;
+}
+
+/* menu-link */
+.menu-link {
+    text-decoration: none;
+    transition: all 0.7s;
+    list-style: none;
+    color: mediumaquamarine;
+}
+.menu-link:hover {
+    color: gold;
+}
+
+.link {
+    color: mediumaquamarine;
+    text-decoration: none;
+    transition: all 0.7s;
+}
+.link:hover {
+    color: gold;
+}
+
+/* titr-site */
+.titr-site {
+    color: red;
+    text-align: center;
+    font-size: 90px;
+}
+
+.titr-site span{
+    color: blue;
+    font-size: 100px;
+}
+.item-site {
+    color: teal;
+    background-position: center;
+    font-size: 25px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+/* table-site */
+.table-site {
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+/* photo-site */
+.photo-site {
+    width: 210px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+/* instagram */
+.insta-link{
+    color:darksalmon;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.insta-link span{
+    color:bisque;
+    font-size: 30px;
+}
+.insta-link:hover {
+    color: turquoise;
+}
+
+
+/* logo */
+.Relationship{
+    float: left;
+    text-decoration: none;
+    color: blanchedalmond ;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.Relationship:hover{
+    color:turquoise;
+}
+
+.Relationship span{
+    color: green;
+    font-size: 50px;
+    transition: all 0.6s;
+}
+.Relationship span:hover{
+    color: red;
+}
+
+
+.logo-photo{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.logo-insta{
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;   
+}
+
+
+.row {
+    background-color: #463c3c;
+    display: block;
+    max-width: 210px;
+    height: 45%;
+    float: right;
+    list-style: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 12px;
+}
+
+/* fotr */
+.foter{
+    color: #ff0000;
+    font-size: 20px;
+    transition: all 0.5s;
+    width: 20%;
+}
+.foter:hover{
+    color: aqua;
+
+}
+
+/* text */
+.text {
+    color: cyan;
+    text-align: center;
+    transition: all 0.5s;
+}
+.text:hover {
+    color: lightgreen;
+}
+
+/* form global */
+.titr-form {
+    color: deeppink;
+    background-color: darkturquoise;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 18%;
+    margin-right: 22%;
+    border-radius: 10px;
+}
+
+input,
+textarea,
+form-group,
+titr-form,
+label {
+    font-family: "Vazir", "yekan", " Tahoma", "sans-serif";
+}
+
+.full {
+    background-repeat: no-repeat;
+    position: relative;
+    text-decoration: none;
+    background: url(../photo.site/photo-form.jpg) black center;
+}
+.row-form {
+    background-color: #7064f1;
+    max-width: 70%;
+    height: auto;
+    list-style: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 15%;
+}
+
+.button{
+    padding: 7px 20px;
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.button:hover{
+    background-color:black;
+    color: darkturquoise;
+}
+
+.required-form{
+    color: red;
+    font-size: 30px;
+}
+.form-opinion{
+    color:#3540dd;
+    font-size: 20px;
+}
+.checkbox-form{
+    margin-right: 20px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    padding: 7px;
+    line-height: 7px;
+    transition: all 1s;
+
+}
+.form-control:focus{
+    background-color:bisque;
+    outline: 0;
+    border: 2px solid rgb(76, 86, 228);
+}
+.book-form label{
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.form-group {
+    margin-bottom: 13px;
+}
+/* book */
+
+.book-form {
+    font-family: "Vazir", "yekan", " Tahoma", "sans-serif";
+    max-width: 300px;
+    margin: 0 auto;
+}
+.book {
+    background-color: slategray;
+    margin: 0 150px ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* footer */
+
